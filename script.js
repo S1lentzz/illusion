@@ -1,4 +1,4 @@
-// Grundlegendes JavaScript für die Website
+// Main js
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Website geladen und bereit.');
 });
