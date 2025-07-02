@@ -1,21 +1,44 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meine HTML Website</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <title>1llusion Web-Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Willkommen auf meiner Website</h1>
+        <nav class="navbar">
+            <div class="logo">1llusion</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="toggle-theme">🌙</div>
+        </nav>
     </header>
     <main>
-        <p>Dies ist eine einfache HTML5 Vorlage.</p>
+        <section class="intro">
+            <p class="greeting">Hey! It's me Evgeny Smagin.</p>
+            <h1>Crafting purpose driven experiences</h1>
+            <h2>Web-Developer</h2>
+            <p class="description">
+                I work globally to build pixel-perfect, engaging, and accessible digital experiences that drive results and achieve business goals.
+            </p>
+            <div class="social-links">
+                <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="mailto:evgeny@example.com">Email</a>
+            </div>
+            <button class="btn-know-me">Know me better</button>
+        </section>
     </main>
     <footer>
-        <p>© 2025 Illusion</p>
+        <p>© 2025 1llusion</p>
     </footer>
-    <script src="js/script.js"></script>
 </body>
 </html>
